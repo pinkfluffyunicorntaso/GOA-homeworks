@@ -1,0 +1,1 @@
+#snake case არის ცვლადებს რომ წერ underscore ით მაგ: ski_bidi და ვიყენებთ იმიტომ რომ უფრო ადვილია რომ გავარჩიოთ house_numbers ვიდრე housenumbers 
