@@ -1,0 +1,33 @@
+<!--select თეგი საიტზე მომხმარებელს ჩამოშასვლელ მენიუს ცვენებს-->
+<!--option თეგი select თეგში ერთ ერთ სიას აჩვენებს-->
+<!--inout/select ელემენტების დაკავშირება label თაგდთან შეგიძლია id ითი-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency exchange</title>
+</head>
+<body>
+    <h1>currency exchange</h1>
+    <form>
+    <label for="startmoney">amount</label>
+    <input type="number" id="startmoney" name="startmoney" required> <br><br>
+
+    <label for="startcurrency">starting currency</label>
+    <select name="startcurrency" id="startcurrency" required>
+        <option value="georgian">lari</option>
+        <option value="usa">dollars</option>
+    </select>
+    <br><br>
+    <label for="newcurrency">new currency</label>
+    <select name="newcurrency" id="newcurrency">
+        <option value="georgian">lari</option>
+        <option value="usa">dollars</option>
+    </select>
+    <br><br>
+    <button>submit</button>
+    </form>
+
+</body>
+</html>
